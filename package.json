@@ -1,0 +1,17 @@
+{
+  "name": "semver-action",
+  "version": "1.0.0",
+  "description": "Semver Github Action",
+  "author": "Jack Joynson Software Limited",
+  "license": "ISC",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node16 --outfile=dist/index.js"
+  },
+  "dependencies": {
+    "@actions/core": "1.10.0",
+    "semver": "7.5.4"
+  },
+  "devDependencies": {
+    "esbuild": "0.18.13"
+  }
+}
